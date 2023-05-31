@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.balance-income-expense-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid red;
+  font-weight: bold;
+}
+
+.item-container div img {
+  height: 50px;
+  width: 50px;
+}
